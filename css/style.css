@@ -1,9 +1,21 @@
-.logo-half{
+:root{
+    --main-font:
+    --secodary-font:
+    --accent-color:
+}
+
+body{
+    font-family: ;
+}
+
+/*===========Header========*/
+
+.logo-half1{
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 0.839;   
+    line-height: 1.192;   
     letter-spacing: 0.03em;
     color:#2196F3;    
  }
@@ -25,7 +37,7 @@
  }
  
  
- .contact-list{
+ .contacts-header{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -34,8 +46,23 @@
     letter-spacing: 0.02em;
     color: #757575;  
  }
- 
- 
+ /*==========End Header=========*/
+
+ /*===========Booking =====*/
+ .booking-button{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363;
+    
+    /* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+/*====color: #FFFFFF;====*/
+ }
  .booking-button{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -55,5 +82,88 @@
     border-radius: 4px;
  }
  
+  /*===========End Booking=====*/
+
+    /*===========Characteristics=====*/
+.undertitle{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.character-name{ 
+    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.service-item-description{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+  /*===========End Characteristics=====*/
+
+/* OUR TEAM*/
+.position{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.187;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* Footer*/
+.logo-half2{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;   
+    letter-spacing: 0.03em;
+    color:white;    
+ }
+ .home-adress{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;   
+    /* or 171% */
+    letter-spacing: 0.03em;  
+    color: #FFFFFF;
+ }
+
+.email-footer, 
+.phone-footer{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+   /* or 171% */
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+/* End */
+
  
  
