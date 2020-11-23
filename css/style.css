@@ -1,0 +1,59 @@
+.logo-half{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 0.839;   
+    letter-spacing: 0.03em;
+    color:#2196F3;    
+ }
+ 
+ .navigation-list{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    color: #212121;
+ }
+ 
+ .navigation-list-link:hover, 
+ .email-header:hover,
+ .phone-header:hover{
+    color: #2196F3;
+ }
+ 
+ 
+ .contact-list{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    color: #757575;  
+ }
+ 
+ 
+ .booking-button{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    
+    /* identical to box height, or 187% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+ }
+ 
+ 
+ 
