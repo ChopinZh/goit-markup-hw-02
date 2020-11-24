@@ -167,3 +167,9 @@
     background-color:#2196F3;
     color:#FFFFFF;
 }
+
+.button-list,
+.project-templates{
+    list-style-type:none;
+}
+.
