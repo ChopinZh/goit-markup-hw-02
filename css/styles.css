@@ -1,0 +1,152 @@
+:root{
+    --main-font:'Roboto', sans-serif;
+    --secondary-font:'Raleway', sans-serif;
+    --main-color: #212121;
+    --secondary-color:#757575;
+    --color-accent: #2196F3;
+    --color-accent-2: #FFFFFF;
+
+}
+
+.body{
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height:1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+   }
+
+/*===========Header (common class 'logo' with footer========*/
+.logo{
+    font-family: var(--secondary-font)
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--main-color);
+}
+
+.logo-blue{
+   color: var(--color-accent);
+ }
+
+
+ 
+ .navigation-text{
+    font-weight: 500;
+    letter-spacing: 0.02em;
+ }
+
+
+.navigation-text:hover,
+.email-header:hover,
+.phone-header:hover{
+    color: #2196F3;
+ }
+
+  /*==========End Header=========*/
+
+
+ /*===========Booking =====*/
+
+.booking-section{
+    color: var(--color-accent-2);
+    letter-spacing: 0.06em;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;   
+    background: #2F303A;
+}
+
+.h1{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;    
+    text-transform: uppercase;
+}
+
+ .booking-button{
+    color: var(--color-accent-2);
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+ }
+/*===========End Booking=====*/
+
+/*===========Characteristics=====*/
+.undertitle{
+    font-weight: bold;
+    text-transform: uppercase;   
+}
+
+.character-name{
+    font-weight: bold;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: #212121;
+}
+.service-item-description{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    color: #757575;
+}
+  /*===========End Characteristics=====*/
+
+/* OUR TEAM*/
+
+.member-name,
+.position{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.member-name{
+    color: var(--main-color);
+}
+
+.position{
+   color: #757575;
+}
+
+/* end of the OUR TEAM*/
+/* Footer*/
+.footer-background{
+    background: #2F303A;
+}
+
+.logo-white{  
+    color:var(--color-accent-2);    
+ }
+
+
+.contacts-footer-item{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color:rgba(255, 255, 255, 0.6);
+    text-decoration:none;
+}
+
+ .home-adress{  
+    color: #FFFFFF;
+}
+
+.logo,
+.name,
+.link{
+     text-decoration: none;
+ }
+
+/* End */
+
