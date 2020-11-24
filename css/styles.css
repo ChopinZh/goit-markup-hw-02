@@ -129,14 +129,19 @@
     color:var(--color-accent-2);    
  }
 
-.contacts-footer-item{
+
+.adress-footer,
+.email-footer,
+.phone-footer{
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     color:rgba(255, 255, 255, 0.6);
 }
 
-.contacts-footer-item:hover{
+.adress-footer:hover,
+.email-footer:hover,
+.phone-footer:hover{
     color:#FFFFFF ;
 }
 
@@ -154,5 +159,12 @@
 .link{
     font-style:normal;
 }
-/* End */
+/* End of Studio-design */
 
+/*beginning of portfolio design*/
+
+
+.button-name:hover{
+    background-color:#2196F3;
+    color:#FFFFFF;
+}
