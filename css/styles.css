@@ -34,7 +34,7 @@
  }
 
 
- 
+
  .navigation-text{
     font-weight: 500;
     letter-spacing: 0.02em;
@@ -46,7 +46,7 @@
 
 .navigation-text:hover,
 .contacts-header-item .link:hover,
-.contacts-header-item .focus{
+.contacts-header-item .link:focus{
     color: #2196F3;
  }
 
@@ -133,16 +133,12 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
+    color:rgba(255, 255, 255, 0.6);
 }
 
-.adress-footer{
-    color:#FFFFFF;
+.contacts-footer-item:hover{
+    color:#FFFFFF ;
 }
-.email-footer,
-.phone-footer{  
-    color: rgba(255, 255, 255, 0.6);;
-}
-
 
 .logo,
 .nav-header,
@@ -151,8 +147,7 @@
  }
 
 .nav-header:visited,
-.link:visited,
-.contacts-header-item:visited{
+.link:visited{
      color: green;
 }
 
