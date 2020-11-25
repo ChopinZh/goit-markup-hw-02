@@ -180,36 +180,30 @@ ul {
 /* beginning of portfolio design*/
 
 .button-name:hover{
-    background-color:#2196F3;
+    background-color:var(--color-accent);
     color:#FFFFFF;
-}
-
-.project-name{
-    font-size: 18px;
-    line-height: 2;
-    color:var(--main-color);
-    letter-spacing: 0.06em;
-    color: var(--gray-like-color);
 }
 
 .button-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
+    color:var(--main-color);
 }
   
-.project-name {
+.project-name{
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    color:var(--main-color);
     letter-spacing: 0.06em;
-    color:var(--black-type-color);
-  }
+}
   
 .area {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--secondary-color);
 }
+/* end of portfolio*/
