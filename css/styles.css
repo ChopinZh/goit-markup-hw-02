@@ -114,6 +114,8 @@ ul {
 
 .undertitle{
     font-family: var(--main-font);
+    font-style:normal;
+    font-weight: bold;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
