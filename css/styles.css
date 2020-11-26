@@ -40,10 +40,12 @@ ul {
     color:var(--main-color);
 }
 
-
-
 .email-header,
 .phone-header{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color:var(--secondary-color);
 }
 
@@ -57,7 +59,7 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--secondary-color);
-  }
+}
 
 .navigation-text:hover,
 .contacts-header-item .link:hover,
