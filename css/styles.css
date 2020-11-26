@@ -193,6 +193,10 @@ ul {
 
 /* beginning of portfolio design*/
 
+.button-name{
+    background-color:#F5F4FA;
+}
+
 .button-name:hover{
     background-color:var(--color-accent);
     color:#FFFFFF;
@@ -200,6 +204,7 @@ ul {
 
 .button-item {
     font-family: var(--main-font);
+    font-style:normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
