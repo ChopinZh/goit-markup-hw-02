@@ -62,10 +62,6 @@ ul {
     color: #2196F3;
  }
 
- .navigation-list-item:active{
-     color: #2196F3;
- }
- 
 /*==========End Header=========*/
 /*===========Booking =====*/
 
@@ -206,15 +202,14 @@ ul {
     line-height: 1.62;
     letter-spacing: 0.03em;
     color:var(--main-color);
-    text-align: center;
 }
 
 .button-name:hover{
     background-color:var(--color-accent);
     color:#FFFFFF;
 }
-  
 
+  
 .project-name{
     font-family: var(--main-font);
     font-weight: 700;
