@@ -56,11 +56,12 @@ ul {
     list-style-type: none;
 }
 
-.navigation-text:hover,
+
 .contacts-header-item .link:hover,
 .contacts-header-item .link:focus{
     color: #2196F3;
  }
+
 
 /*==========End Header=========*/
 /*===========Booking =====*/
