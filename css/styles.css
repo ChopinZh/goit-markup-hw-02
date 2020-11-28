@@ -34,7 +34,7 @@ ul {
 }
 
 .navigation-text{
-    color:var(--main-color);
+    color:var(--main-color);  
     letter-spacing: 0.03em;
 }
 
